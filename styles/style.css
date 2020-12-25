@@ -1,0 +1,72 @@
+body{
+    background-image: url("../images/img2.jpg");
+    background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  text-align: center;
+  position: relative;
+}
+.container{
+    border:5px transparent;
+    max-height:690px;
+}
+
+.box{
+  background:linear-gradient(180deg,transparent,rgb(55, 11, 65));
+  border-style: solid;
+  border-color:transparent;
+  width:40%;
+  height: 500px;
+  align-items: center;
+  text-align: center;
+  margin: 4% auto;
+  opacity:0.9;
+  border-radius: 20px;
+  box-shadow: -1px 1px 8px rgb(221, 133, 18); 
+}
+.pt{
+    color:#fff;
+    font-size:14vh;
+    text-shadow:0px 0px 5px black;
+}
+.title,.stitle,.pt{
+    text-align: center;
+    font-family: "impact";
+    letter-spacing: 3px;
+}
+.title{
+    margin-top: 3%;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.button{
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button-1,.button-2,.reset-1{
+    background:linear-gradient(180deg,transparent,rgba(233, 25, 70, 0.815));
+    margin: 0px auto;
+    height:60px;
+    width:200px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 3vh;
+    font-family: "impact";
+    color:#fff;
+    box-shadow: 2px 1px 8px rgb(221, 133, 18);
+    letter-spacing: 3px;
+}
+.reset{
+    margin-top:15px;
+}
+.button-1:hover,.button-2:hover,.reset-1:hover{
+
+    background:linear-gradient(180deg,transparent,rgba(255, 60, 0, 0.801));
+}
+.button-1:active,.button-2:active,.reset-1:active{
+    background:linear-gradient(180deg,transparent,rgba(247, 158, 131, 0.801));
+}
